@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Tahome, Arial, sans-serif;
+}
+
+#principal {
+    width: 1024px;
+    margin: 35px auto;
+}
+
+nav {
+    background-color: #162028;
+    position: relative;
+    padding: 10px 0;
+}
+
+#logo {
+    position: absolute;
+    margin-left: 15%;
+}
+
+ul {
+    padding: 10px;
+    text-align: right;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+    letter-spacing: 3px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+a:hover {
+    color: white;
+    transition-duration: 0.3s;
+}
+
+#texto1 {
+    text-align: justify;
+    margin: 50px 100px;
+}
+
+#texto1 h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #252525;
+}
+
+#texto1 p {
+    font-size: 16px;
+    line-height: 2;
+    text-indent: 50px;
+    color: #555;
+}
+
+#card-texto {
+    margin: 50px 100px;
+    overflow: auto;
+    color: #555;
+}
+
+.cards {
+    width: 33.3%;
+    margin: auto;
+    float: left;
+    text-align: center;
+}
+
+.card-titulo {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#texto2 {
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+#texto-titulo {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#texto-paragrafo {
+    margin: 50px 260px 0 0;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.5;
+}
+
+#contato {
+    margin: 50px 0;
+}
+
+#contato address {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #143f52;
+    font-weight: bold;
+    font-style: normal
+}
+
+#mapa {
+    width: 100%;
+}
+
+footer p {
+    margin-top: 30px;
+    background-color: #162028;
+    color: rgb(160, 160, 160);
+    padding: 25px 0;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 12px;
+}
